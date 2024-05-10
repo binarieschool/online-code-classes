@@ -2,6 +2,8 @@
 
 ## About
 
+  > Purchase classes to learn to program online by choosing the hours with your teacher.
+
 ## Table of Contents
 
 ## Demo
