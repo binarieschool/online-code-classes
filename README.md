@@ -1,25 +1,35 @@
 # Online Code Classes
 
-## About
+## About 🚀
 
   > Purchase classes to learn to program online by choosing the hours with your teacher.
 
-## Table of Contents
+## Table of Contents 📑
 
-## Demo
+## Demo 💻
 
-## Feactures
+## Feactures 💡
 
-## Install and Run the project
+## Install and Run the project ⚙️
 
-## Built with
+```bash
+# Step 1
+```
+```bash
+# Step 2
+```
+```bash
+# Step 3
+```
 
-## Useful resources
+## Built with 🏗️
 
-## License
+## Useful resources 🔧
+
+## License 📋
 
   > GPL-3.0 license
 
-## Author
+## Author 🧑🏻‍💻
 
   > Melquiades H.R.
