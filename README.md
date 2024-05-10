@@ -1,4 +1,4 @@
-# Online Course Store
+# Online Code Classes
 
 ## About
 
