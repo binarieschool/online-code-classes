@@ -19,3 +19,5 @@
   > GPL-3.0 license
 
 ## Author
+
+  > Melquiades H.R.
