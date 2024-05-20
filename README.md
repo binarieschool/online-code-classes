@@ -5,12 +5,8 @@
 
 ## Badges 🎫
 
-They are badges that determine the status of the project, such as: license, versions, dependencies, testing, ...
+![badges2](https://img.shields.io/badge/Open%20Source-8A2BE2) &nbsp;&nbsp; ![badges3](https://img.shields.io/badge/status-%20developing-green)
 
-**Examples:** 👉🏼 &nbsp;&nbsp; ![badges1](https://img.shields.io/badge/version-1.0-blue) &nbsp;&nbsp; ![badges2](https://img.shields.io/badge/Open%20Source-8A2BE2) &nbsp;&nbsp; ![badges3](https://img.shields.io/badge/status-%20developing-green)
-
-> [!NOTE]
-> Create your own Badges on the website: <a href="https://shields.io/" title="Shields" target="_blank">https://shields.io/</a>
 
 ## Table of Contents 📑
 
@@ -35,8 +31,6 @@ They are badges that determine the status of the project, such as: license, vers
 <br/>
 
 <h2 id="feactures">Feactures 💡</h2>
-
-Briefly explain the features of your project.
 
 | Name | How does it work? |
 | ---- | ----------------- |
