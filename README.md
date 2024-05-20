@@ -1,5 +1,5 @@
 > [!WARNING]
-> 🚧️ THIS RESOURCE IS **UNDER CONSTRUCTION** !!! 🚧️
+> 🚧️ THIS REPOSITORY IS **UNDER CONSTRUCTION** !!! 🚧️
 
 # Online Code Classes
 
