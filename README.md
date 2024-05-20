@@ -134,7 +134,5 @@ Free software license used to protect the rights of users and promote freedom in
 
 <h2 id="author">Author 🧑🏻‍💻</h2>
 
-Author
-
-  > Example: Melquiades H.R.
+  > Melquiades H.R.
 
