@@ -14,9 +14,7 @@
 * [Demo](#demo)
 * [Feactures](#feactures)
 * [Install and Run](#install-run)
-* [Testing](#testing)
 * [Built with](#built-with)
-* [Useful resources](#useful-resources)
 * [License](#license)
 * [Author](#author)
 
@@ -55,16 +53,6 @@ Run the project:
 npm run dev
 ```
 
-Download resources:
-
-| Host | Type | Content | URL |
-| ---- | ---- | ------- | --- |
-| ![Dropbox](https://img.shields.io/badge/Google%20Drive-4285F4?logo=googledrive&logoColor=fff) | Images | ... | https://name-host |
-
-<br/>
-
-<h2 id="testing">Testing 🔬</h2>
-
 <br/>
 
 <h2 id="built-with">Built with 🏗️</h2>
@@ -85,32 +73,60 @@ Technologies to build this project:
 Some code blocks from the project:
 
 ```javascript
-{/* React */}
-import React from 'react';
-
-function App() {
+export default function Footer() {
   return (
-    <div>
-      <h1>Hello, World!</h1>
-    </div>
+    <footer className="bg-dark mt-5 py-5">
+      <div className="container-xl">
+        <p className="text-white text-center fs-4 mt-4 m-md-0">
+          Developed by Melquiades H.R.
+        </p>
+      </div>
+    </footer>
+  );
+}
+```
+
+<br/>
+
+```javascript
+function App() {
+
+  const {data, cart, addToCart, addQuantity, lessQuantity, removeCourses, clearCart, isEmptyCart, totalPay } = useCourse();
+
+  return (
+    <>
+      <Header 
+        cart={cart}
+        addQuantity={addQuantity}
+        lessQuantity={lessQuantity}
+        removeCourses={removeCourses}
+        clearCart={clearCart}
+        isEmptyCart={isEmptyCart}
+        totalPay={totalPay}
+        />
+      <main className="container-xl mt-5">
+        <h2 className="text-center">Choose your favorite languages</h2>
+
+        <div className="row mt-5">
+          
+          {/* We generate as many components as there are items in the db array */}
+          {data.map((course)=>
+            <Course 
+              // Warning: Each child in a list should have a unique "key" prop.
+              key={course.id}
+              course={course}
+              addToCart={addToCart}/> 
+          )}
+
+        </div>
+      </main>
+      <Footer />
+    </>
   );
 }
 
 export default App;
 ```
-
-<br/>
-
-<h2 id="useful-resources">Useful resources 🔧</h2>
-
-| URL | What does it provide? |
-| ---- | -------------------- |
-| Dropbox | [plugins/dropbox/README.md](plugins/dropbox/README.md) |
-| GitHub  | [plugins/github/README.md](plugins/github/README.md) |
-| Google Drive | [plugins/googledrive/README.md](plugins/googledrive/README.md) |
-| OneDrive | [plugins/onedrive/README.md](plugins/onedrive/README.md) |
-| Medium | [plugins/medium/README.md](plugins/medium/README.md) |
-| Google Analytics | [plugins/googleanalytics/README.md](plugins/googleanalytics/README.md) |
 
 <br/>
 
