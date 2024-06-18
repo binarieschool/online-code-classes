@@ -1,35 +1,43 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import Header from "./components/Header.tsx";
+import Footer from "./components/Footer.tsx";
+import Course from "./components/Course.tsx";
+import { useCourse } from "./hooks/UseCourse.ts";
+useCourse;
 
 function App() {
-  const [count, setCount] = useState(0)
+
+  const {data, cart, addToCart, addQuantity, lessQuantity, removeCourses, clearCart, isEmptyCart, totalPay } = useCourse();
 
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <Header 
+        cart={cart}
+        addQuantity={addQuantity}
+        lessQuantity={lessQuantity}
+        removeCourses={removeCourses}
+        clearCart={clearCart}
+        isEmptyCart={isEmptyCart}
+        totalPay={totalPay}
+        />
+      <main className="container-xl mt-5">
+        <h2 className="text-center">Choose your favorite languages</h2>
+
+        <div className="row mt-5">
+          
+          {/* We generate as many components as there are items in the db array */}
+          {data.map((course)=>
+            <Course 
+              // Warning: Each child in a list should have a unique "key" prop.
+              key={course.id}
+              course={course}
+              addToCart={addToCart}/> 
+          )}
+
+        </div>
+      </main>
+      <Footer />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

@@ -1,0 +1,88 @@
+import type {CourseDB} from "../types/type";
+
+export const db: CourseDB[] = [
+  {
+      id: 1,
+      name: 'Java',
+      image: 'java',
+      description: 'Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.',
+      price: 12,
+  },
+  {
+      id: 2,
+      name: 'Python',
+      image: 'python',
+      description: 'Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.',
+      price: 15,
+  },
+  {
+      id: 3,
+      name: 'Javascript',
+      image: 'javascript',
+      description: 'Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.',
+      price: 10,
+  },
+  {
+      id: 4,
+      name: 'NodeJS',
+      image: 'nodejs',
+      description: 'Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.',
+      price: 14,
+  },
+  {
+      id: 5,
+      name: 'HTML',
+      image: 'html',
+      description: 'Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.',
+      price: 12,
+  },
+  {
+      id: 6,
+      name: 'CSS',
+      image: 'css',
+      description: 'Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.',
+      price: 15,
+  },
+  {
+      id: 7,
+      name: 'Rust',
+      image: 'rust',
+      description: 'Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.',
+      price: 19,
+  },
+  {
+      id: 8,
+      name: 'React',
+      image: 'react',
+      description: 'Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.',
+      price: 17,
+  },
+  {
+      id: 9,
+      name: 'Django',
+      image: 'django',
+      description: 'Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.',
+      price: 17,
+  },
+  {
+      id: 10,
+      name: 'Flask',
+      image: 'flask',
+      description: 'Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.',
+      price: 18,
+  },
+  {
+      id: 11,
+      name: 'PostgreSQL',
+      image: 'postgresql',
+      description: 'Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.',
+      price: 21,
+  },
+  {
+      id: 12,
+      name: 'SQLite',
+      image: 'sqlite',
+      description: 'Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.',
+      price: 13,
+  },
+]
