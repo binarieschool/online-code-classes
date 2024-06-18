@@ -6,7 +6,17 @@ useCourse;
 
 function App() {
 
-  const {data, cart, addToCart, addQuantity, lessQuantity, removeCourses, clearCart, isEmptyCart, totalPay } = useCourse();
+  const 
+    { data, 
+      cart, 
+      addToCart, 
+      addQuantity, 
+      lessQuantity, 
+      removeCourses, 
+      clearCart, 
+      isEmptyCart, 
+      totalPay 
+    } = useCourse();
 
   return (
     <>
