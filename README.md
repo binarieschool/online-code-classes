@@ -1,6 +1,8 @@
 > [!WARNING]
 > 🚧️ THIS REPOSITORY IS **UNDER CONSTRUCTION** !!! 🚧️
 
+<p style='font-size:18px;'><span style='font-weight:bold'>&#128197;&nbsp;Last update:</span> 20 June - 2024</p> 
+
 > [!NOTE]
 > ***Online Code Classes*** is made from Juan de la Torre project, with some visual and code changes.
 
