@@ -1,6 +1,21 @@
 > [!WARNING]
 > 🚧️ THIS REPOSITORY IS **UNDER CONSTRUCTION** !!! 🚧️
 
+> [!NOTE]
+> ***Online Code Classes*** is made from Juan de la Torre project, with some visual and code changes.
+
+![Udemy](https://img.shields.io/badge/Udemy-EC5252?style=for-the-badge&logo=Udemy&logoColor=white) 
+> ***Course***: React and TypeScript - The Complete Guide Creating +10 Projects  
+
+***Changes made*** 👇🏻
+
+| Original project | By: Melquiades H.R |
+| ---------------- | ------------------ |
+| ... | ... |
+| ... | ... |
+| ... | ... |
+| ... | ... |
+
 # Online Code Classes
 
 ## Badges 🎫
@@ -12,7 +27,6 @@
 
 * [Description](#description)
 * [Demo](#demo)
-* [Feactures](#feactures)
 * [Install and Run](#install-run)
 * [Built with](#built-with)
 * [License](#license)
@@ -28,14 +42,16 @@
 
 <br/>
 
-<h2 id="feactures">Feactures 💡</h2>
+![Image-Initial Online Code Clases](https://drive.google.com/uc?export=view&id=1D__aKunApBsjs4B2hREVXumKWuIcyBZ6)
 
-| Name | How does it work? |
-| ---- | ----------------- |
-| Feacture 1 | This feature makes... |
-| Feacture 2 | This feature makes... |
-| Feacture 3 | This feature makes... |
-| Feacture 4 | This feature makes... |
+
+> Main image of the "Online Code Classes" project
+
+<br/>
+
+![Image-Cart Online Code Clases](https://drive.google.com/uc?export=view&id=1GWlxF5h3jh9XWkZlQhh7CWshuhCZYqYz)
+
+> Modal window to manage the course shopping cart.
 
 <br/>
 
@@ -85,6 +101,7 @@ export default function Footer() {
   );
 }
 ```
+> Structure of the **"Footer"** component that includes the project
 
 <br/>
 
@@ -127,6 +144,7 @@ function App() {
 
 export default App;
 ```
+> Main component of the application ***"App"***
 
 <br/>
 
