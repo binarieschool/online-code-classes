@@ -1,7 +1,7 @@
 > [!WARNING]
 > 🚧️ THIS REPOSITORY IS **UNDER CONSTRUCTION** !!! 🚧️
 
-<p style='font-size:18px;'><span style='font-weight:bold'>&#128197;&nbsp;Last update:</span> 20 June - 2024</p> 
+<p style='font-size:18px;'><span style='font-weight:bold'>&#128197;&nbsp;Last update:</span> 21 June - 2024</p> 
 
 > [!NOTE]
 > ***Online Code Classes*** is made from Juan Pablo de la Torre Valdez, with some visual and code changes.
