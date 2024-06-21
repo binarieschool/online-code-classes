@@ -4,7 +4,7 @@
 <p style='font-size:18px;'><span style='font-weight:bold'>&#128197;&nbsp;Last update:</span> 20 June - 2024</p> 
 
 > [!NOTE]
-> ***Online Code Classes*** is made from Juan de la Torre project, with some visual and code changes.
+> ***Online Code Classes*** is made from Juan Pablo de la Torre Valdez, with some visual and code changes.
 
 ![Udemy](https://img.shields.io/badge/Udemy-EC5252?style=for-the-badge&logo=Udemy&logoColor=white) 
 > ***Course***: React and TypeScript - The Complete Guide Creating +10 Projects  
